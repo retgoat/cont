@@ -4,7 +4,7 @@
 * `rake db:create`
 * `rake db:migrate`
 
-###Create model
+### Create model
 ```
 curl -X GET \
   http://localhost:3000/models.json \
@@ -39,7 +39,7 @@ curl -X GET \
 }
 ```
 
-###Create valid entity
+### Create valid entity
 
 ```
 curl -X POST \
@@ -81,7 +81,7 @@ curl -X POST \
 }
 ```
 
-###Create invalid entity
+### Create invalid entity
 
 ```
 curl -X POST \
