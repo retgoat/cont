@@ -6,7 +6,7 @@
 
 ### Create model
 ```
-curl -X GET \
+curl -X POST \
   http://localhost:3000/models.json \
   -H 'cache-control: no-cache' \
   -H 'content-type: application/json' \
